@@ -26,8 +26,3 @@ function startTimer(id, object)
         end
     end
 end
-
-Citizen.CreateThread(function()   
-    Citizen.Wait(4000)
-          print("QBUS DUMPSTERS MAKE BY PHANTOMDDK - PIXELLIFE")        
-end)
