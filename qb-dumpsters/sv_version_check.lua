@@ -1,6 +1,6 @@
 local label = 
 [[ 
-                          QBUS DUMPSTERS
+                          QBCore DUMPSTERS
                      MADE BY PIXELLIFE/PHANTOMDDK
 ]]
 
