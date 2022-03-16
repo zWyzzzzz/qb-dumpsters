@@ -1,19 +1,9 @@
-QBCore = nil
+local QBCore = exports['qb-core']:GetCoreObject()
 
 local searched = {3423423424}
 local canSearch = true
 local dumpsters = {218085040, 666561306, -58485588, -206690185, 1511880420, 682791951}
 local searchTime = 14000
-
-Citizen.CreateThread(function() 
-    while true do
-        Citizen.Wait(10)
-        if QBCore == nil then
-            TriggerEvent("QBCore:GetObject", function(obj) QBCore = obj end)    
-            Citizen.Wait(200)
-        end
-    end
-end)
 
 Citizen.CreateThread(function()
     while true do
